@@ -4,6 +4,5 @@ def my_each(array)
   while counter < collection
     yield(array)
     counter += 1
-    return array[counter - 1]
   end
 end
