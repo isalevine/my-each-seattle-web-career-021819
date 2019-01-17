@@ -4,5 +4,5 @@ def my_each(array)
   while counter <= collection do |items|
     yield
     counter += 1
-  end    
+  end
 end
